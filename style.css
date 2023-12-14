@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Poppins:ital,wght@0,600;0,700;0,800;0,900;1,300;1,600;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Gasoek+One&family=Squada+One&family=Ultra&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    
+    
+}
+
+body{
+    background-color: rgb(14, 13, 13);
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.logo img{
+    max-width:130px;
+    max-height:90px;
+    
+    width: auto;
+    height: auto;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+   
+}
+
+section.topo{
+    padding: 30px 10%;
+    background-image: url(eb554c18-6420-441d-9656-ede517998459.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+    font-size: 20px;
+    
+}
+
+header a:hover{
+    color: rgb(156, 107, 1);
+    transition: 0.3s all;
+    transform: scale(1.20);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+
+}
+
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(156, 107, 1);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header.btn-contato button:hover{
+    box-shadow: 0px 0px 8px blue5;
+}
+
+
+
+.texto-topo h1{
+    color:rgb(180, 124, 3);
+    
+    font-family: 'Dosis', sans-serif;
+    padding: 0px 0 0 17%;
+    font-size: 75px;
+    
+}
+.texto-topo p span{
+    color: rgb(156, 107, 1);
+}
+
+
+
+.texto-topo h1 span{
+    
+    font-family: 'Squada One', sans-serif;
+    text-decoration: underline rgb(156, 107, 1);
+    position: relative;
+    
+
+}
+
+.texto-topo p{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+    padding: 150px 0 0 400px;
+}
+
+section.tecnologias{
+    font-family: 'Squada One', sans-serif;
+    padding: 110px 37%;
+    font-size: 35px;
+    text-decoration: overline rgb(156, 107, 1);
+    color:rgb(156, 107, 1) ;
+   
+}
